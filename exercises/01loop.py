@@ -20,4 +20,3 @@ def p_times(str, num=1):
     print(str)
 
 p_times('Hello, world',10)
-

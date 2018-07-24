@@ -9,3 +9,12 @@
 #
 # > 120
 #
+def factorial(num):
+  fac_range = list(range(1,num))[::-1]
+  product = num
+  for i in fac_range:
+    product *= i
+  return product
+
+print(factorial(5))
+

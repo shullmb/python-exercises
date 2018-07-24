@@ -31,3 +31,14 @@
 # letter_count('banana')
 #
 # > {'a': 3, 'b': 2}
+
+def letter_count(str):
+  dict = {}
+  for char in str:
+    if char in dict:
+      dict[char] += 1
+    else:
+      dict[char] = 1
+  return dict
+
+print(letter_count("abcaabbnnss"))

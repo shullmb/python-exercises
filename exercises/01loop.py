@@ -13,3 +13,11 @@
 # > Hello there
 # > Hello there
 # > Hello there
+
+def p_times(str, num=1):
+  times = range(0,num)
+  for i in times:
+    print(str)
+
+p_times('Hello, world',10)
+
